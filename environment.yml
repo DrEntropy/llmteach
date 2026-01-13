@@ -1,0 +1,16 @@
+name: llm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - transformers
+    - datasets
+    - accelerate
+    - torch
+    - torchvision
+    - peft
+    - jupyter
+    - pillow
+    - jupyterlab
